@@ -1,0 +1,52 @@
+{
+  "name": "SeemsGood",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Shared": {
+        "$path": "src/ReplicatedStorage/Shared"
+      },
+      "Config": {
+        "$path": "src/ReplicatedStorage/Config"
+      },
+      "Remotes": {
+        "$className": "Folder"
+      },
+      "Assets": {
+        "$path": "src/ReplicatedStorage/Assets"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "Libraries": {
+        "$path": "src/ServerScriptService/Libraries"
+      },
+      "Services": {
+        "$path": "src/ServerScriptService/Services"
+      },
+      "Main": {
+        "$path": "src/ServerScriptService/Main.server.lua"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "Client": {
+          "$path": "src/StarterPlayer/StarterPlayerScripts"
+        }
+      }
+    },
+    "StarterGui": {
+      "$className": "StarterGui",
+      "UI": {
+        "$path": "src/StarterGui"
+      }
+    },
+    "Workspace": {
+      "$path": "src/Workspace",
+      "$ignoreUnknownInstances": true
+    }
+  }
+}
