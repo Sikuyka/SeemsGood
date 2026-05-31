@@ -1,0 +1,31 @@
+НА НОУТБУКЕ (у вас rojo.exe на рабочем столе)
+==========================================
+
+Я не могу нажать кнопки на вашем ноутбуке. Сделайте сами за 30 секунд:
+
+ВАРИАНТ 1 — PowerShell
+----------------------
+1. Win + R → powershell → Enter
+2. Вставьте и Enter:
+
+cd $env:USERPROFILE\Desktop\SeemsGood
+& "$env:USERPROFILE\Desktop\rojo.exe" serve
+
+(Если SeemsGood не на столе — укажите свой путь к папке проекта.)
+
+3. Окно НЕ закрывать
+4. Roblox Studio → Plugins → Rojo → Connect
+
+
+ВАРИАНТ 2 — двойной клик
+------------------------
+1. Скачайте/скопируйте из репозитория файл:
+   scripts\start-rojo-desktop.bat
+2. Положите на рабочий стол
+3. Дважды кликните
+4. Studio → Rojo → Connect
+
+
+Если папки SeemsGood нет на столе:
+git clone https://github.com/Sikuyka/SeemsGood.git
+(на рабочий стол)
